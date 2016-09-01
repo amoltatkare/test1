@@ -1,19 +1,11 @@
 {
     "repositories": [
         {
-            "type": "package",
-            "package": {
-                "name": "amoltatkare/test1",
-                "version": "master-master",
-                "source": {
-                    "url": "https://github.com/amoltatkare/test1",
-                    "type": "git",
-                    "reference": "origin/master"
-                }
-            }
+            "url": "https://github.com/amoltatkare/test1",
+            "type": "git"
         }
     ],
     "require": {
-        "amoltatkare/test1": "master-master"
+        "amoltatkare/test1": "master:master"
     }
 }
