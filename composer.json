@@ -1,11 +1,11 @@
 {
     "repositories": [
         {
-            "url": "https://github.com/amoltatkare/test1",
-            "type": "git"
+            "type": "vcs",
+            "url": "https://github.com/amoltatkare/test1"
         }
     ],
     "require": {
-        "amoltatkare/test1": "master:master"
+        "amoltatkare/test1": "master-master"
     }
 }
