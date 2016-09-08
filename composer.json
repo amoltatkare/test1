@@ -1,11 +1,18 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/amoltatkare/test1"
-        }
-    ],
+	"repositories": [
+    {
+            "type"    : "package",
+            "package" : {
+                "name"    : "amoltatkare/test2",
+                "version" : "1.0",                
+                "source"  : {
+                    "url"       : "https://github.com/amoltatkare/test2.git",
+                    "type"      : "git",
+                    "reference" : "1.0"
+                }
+            }
+    }],
     "require": {
-        "amoltatkare/test1": "master-master"
+        "amoltatkare/test2": "1.0"
     }
 }
